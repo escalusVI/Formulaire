@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<link rel = "stylesheet" href= " style.css">
+		<title>formulaire interactif</title>
+	</head>
+	<body>
+	<fieldset>
+	<legend>Formulaire d'inscription</legend>
+		<form method="post" action="#">
+		<label>Je suis: </label></br>homme<input type="radio" name="genre" id="homme"/>une femme<input type="radio" name="genre" id="femme"/>autre<input type="radio" name="genre" id="genre"/></br></br>
+			 
+			
+			
+			<label>Nom: </label><input type="text" name="name" id="name" placeholder="Votre nom"/></br>
+			
+			<label>Prenom: </label><input type="text" name="prenom" id="prenom" placeholder="Votre prenom"/></br>
+			
+			<label>Age: </label><input type="text" name="age" id="age"placeholder="Votre âge"/></br>
+			
+			<label>Pseudo: </label><input type="text" name="pseudo" id="pseudo"placeholder="Votre pseudo"/></br>
+			
+			<label>Mot de passe: </label><input type="password" name="password" id="password"placeholder="Votre mot de passe"/></br>
+			
+			<label>Mot de passe (confirmation): </label><input type="password" name="password" id="password"placeholder="Confirmer mot de passe"/></br>
+			
+			<p><label>Pays</label>
+			<select>
+				<option value="france">France</option>
+				<option value="autre">Autre</option>
+			</select></br></p>
+			
+			<p><label>Je souhaite recoir la Newsletter<input type="checkbox" name="newsletter" id="newsletter"/></p>
+		</br></br>
+		<p id="boutons">
+		<input type="submit" value="envoyer"/>
+		<input type="reset" value="reintialiser"/>
+		</p>
+		
+		
+		</form>
+	</fieldset>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+body{
+	width: 50%;
+}
+
+label, input{
+	margin: 10px;
+}
+
+label{
+	display: block;
+	width: 150px;
+	float:left;
+}
+
+fieldset{
+	padding: 40px;
+}
+
+#boutons{
+	margin-top: 50px;
+	margin-left: 25%;
+}
+
